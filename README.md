@@ -27,7 +27,57 @@ npm start
 ```
 
 ## APIs with sample payloads
-### APIURL(user/create) 
+### GET(api/user/all) 
  ```json
-Here goes your json object definition
+[
+    {
+        "id": 1,
+        "username": "shweta",
+        "email": "shweta@mailinator.com",
+        "password": "123456",
+        "isActive": false,
+        "role": 1
+    },
+    {
+        "id": 2,
+        "username": "shweta1",
+        "email": "shweta1@mailinator.com",
+        "password": "123456",
+        "isActive": true,
+        "role": 1
+    },
+    {
+        "id": 3,
+        "username": "shweta2",
+        "email": "shweta2@mailinator.com",
+        "password": "123456",
+        "isActive": true,
+        "role": 10
+    }
+]
 ```
+
+### POST(api/user/login) 
+ ```json
+  { 
+        "username": "shweta/shweta@mailinator.com", 
+        "password": "123456" 
+    } 
+```
+
+### POST(api/user/signup) 
+ ```json
+  { 
+        "username": "shweta2",
+        "email": "shweta2@mailinator.com",
+        "password": "123456"
+    } 
+    
+ ```
+    
+### PUT(api/user/update?id=1) 
+ ```json
+  { 
+        "isActive": true,
+    }  
+ ```
