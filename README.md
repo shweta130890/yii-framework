@@ -11,10 +11,9 @@ Built with the following technologies...
 
 ## Prerequisite Technologies
 
-* [Git](https://git-scm.com/downloads)
-* [MongoDB](https://www.mongodb.org/downloads)
-* [Node 8.x](https://nodejs.org/en/download/)
-* npm 5.x ( or yarn)
+* [Git](https://git-scm.com/downloads) 
+* [Node](https://nodejs.org/en/download/)
+* MySql
 
 ## Installation
 
@@ -28,4 +27,7 @@ npm start
 ```
 
 ## APIs with sample payloads
- 
+### APIURL(user/create) 
+ ```json
+Here goes your json object definition
+```
