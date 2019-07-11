@@ -19,7 +19,7 @@ composer update
 ```
 
 ## APIs with sample payloads
-### GET(api/user/all) 
+### GET(api/users/index) 
  ```json
 [
     {
@@ -49,7 +49,7 @@ composer update
 ]
 ```
 
-### POST(api/user/login) 
+### POST(api/users/login) 
  ```json
   { 
         "username": "shweta/shweta@mailinator.com", 
@@ -57,7 +57,7 @@ composer update
     } 
 ```
 
-### POST(api/user/signup) 
+### POST(api/users/signup) 
  ```json
   { 
         "username": "shweta2",
@@ -67,7 +67,7 @@ composer update
     
  ```
     
-### PUT(api/user/update?id=1) 
+### PUT(api/users/update?id=1) 
  ```json
   { 
         "isActive": true,
