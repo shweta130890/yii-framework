@@ -51,7 +51,7 @@ composer update
 
 ### POST(api/users/login) 
  ```json
-  { 
+    { 
         "username": "shweta/shweta@mailinator.com", 
         "password": "123456" 
     } 
@@ -59,7 +59,7 @@ composer update
 
 ### POST(api/users/signup) 
  ```json
-  { 
+    { 
         "username": "shweta2",
         "email": "shweta2@mailinator.com",
         "password": "123456"
@@ -69,7 +69,16 @@ composer update
     
 ### PUT(api/users/update?id=1) 
  ```json
-  { 
-        "isActive": true,
+    { 
+        "id": 2,
+        "username": "test",
+        "email": "test@gmail.com",
+        "fullname": "",
+        "password": "$2y$13$QHpmTWzZI3SGI45km.IFR.iAeYyeFF/WTWGijxF6JzGZxDN1CgDoa",
+        "role": 1,
+        "status": 1,
+        "created_at": "2019-07-09 18:53:01",
+        "updated_at": "2019-07-11 06:43:50",
+        "last_login": "2019-07-09 20:36:11"
     }  
  ```
