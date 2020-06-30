@@ -48,7 +48,7 @@
         "bootstrap": "^4.0.0-beta.2",
         "core-js": "^2.4.1",
         "express": "^4.16.2",
-        "express-jwt": "^5.3.0",
+        "express-jwt": "^6.0.0",
         "jsonwebtoken": "^8.1.0",
         "mongoose": "^4.13.4",
         "ng2-validation": "^4.2.0",
